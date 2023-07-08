@@ -4,238 +4,194 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AWS DevOps</title>
+    <link href="https://fonts.google.com/specimen/Ephesis" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body style=" margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family:'Bebas Neue', cursive; background-color: aquamarine;
-    display: flex;
-    content-position:center;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;">
-    <hr>
-    <!-- <h1 id="paral">RESUME</h1> -->
-    <hr>
-    <div class="container" style="position: relative;
-    width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
-    background: white;
-    display: grid;
-    margin: 50px;
-    grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px darkblue;">
-        <div class="left" style="position: relative;
-        background: darkcyan;
-        padding: 40px;">
-            <div class="profileText" style=" position: relative;
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="link rel="preconnect href="https://fonts.googleapis.com">
+    
+    <title>Prectical-6</title> 
+    <style>
+        *{
+            box-sizing: border-box;
+            background-color: aquamarine;
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'Ephesis', cursive;
+            
+        }
+        header{
+            margin: auto;
+            border: 2px soli wheat;
+            width: 1000px;
+            
+        }
+        .img{
+            width: 300px;
+            margin: auto;
+            display: inline-block;
+        }
+        h3{
+            
+            margin: 0px;
+            text-align: center;
+            font-family: 'Ephesis', cursive;
+            font-size: 50px;
+            color: aliceblue;
+            
+        }
+        h4{ 
+            margin:0px;
+            text-align: center;
+            font-family: 'Ephesis', cursive;
+            font-size: 55px;
+            color:black ;
+        }
+        .box1{
+            /* border: 4px solid wheat; */
+            margin: 4px 0px;
+            padding: 23px;
+            display: inline-block;
+            box-sizing: border-box;
+            width: 40%;
+        }
+        .box2{
+            /* border: 4px solid wheat; */
+            margin: 20px 20px;
+            padding: 23px;
+            display: inline-block;
+            box-sizing: border-box;
+            width: 50%;
+            height: 50%;
+        }
+        
+        .box3{
+            /* border: 4px solid wheat; */
+            margin: 20px 20px;
+            padding: 23px;
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-bottom: 20px;
-            border-bottom: 1px solid gray; 
-            position: relative;
-            width: 200px;
-            height: 200px;
-            border-radius: 0px;
-            overflow: hidden;">
-                <!-- <h2>Darji Dhruv Manishkumar<br><span>Developer</span></h2> -->
-            </div>
-            <h2 style="color: black;">Darji Dhruv Manishkumar<br><span>Developer/DevOps</span></h2>
-            <div class="contactInfo" style="padding-top: 40px;">
-                <h3 class="title" style="color: aliceblue;
-                text-transform: uppercase;
-                font-weight: 600;
-                letter-spacing: 1px;
-                margin-bottom: 20px;">Contact Info</h3>
-                <ul style="position: relative;">
-                    <li>
-                        <span class="icon" style="display: inline-block;
-                        width: 30px;
-                        font-size: 18px;
-                        color:azure;"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                        <span class="text">dhruvdarjix@gmail.com</span>
-                    </li>
-                    <li>
-                        <span class="icon" style="display: inline-block;
-                        width: 30px;
-                        font-size: 18px;
-                        color:azure;"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-                        <span class="text">www.linkedin.com/dhruv-darji</span>
-                    </li>
-                    <li>
-                        <span class="icon" style="display: inline-block;
-                        width: 30px;
-                        font-size: 18px;
-                        color:azure;"><i class="fa fa-github" aria-hidden="true"></i>
-                        </span>
-                        <span class="text">www.GitHub.com/darjidhruv26</span>
-                    </li>
-                    <li>
-                        <span class="icon" style="display: inline-block;
-                        width: 30px;
-                        font-size: 18px;
-                        color:azure;"><i class="fa fa-phone-square" aria-hidden="true"></i>
-                        </span>
-                        <span class="text">+91-95747x19xx</span>
-                    </li>
-                </ul>
-                <div class="contactInfo_education" style="margin-bottom: 10px;
-            ">
-                    <h3 class="title">Education</h3>
-                    <ul style="position: relative;">
-                        <li>
-                            <h5 style="color: lavenderblush;
-                            font-size: 500;">2020-2024</h5>
-                            <h4 style="color: aquamarine;
-                            font-size: 300;">B.E. in Computer Engineer<br>
-                            KSV University</h4>
-                        </li>
-                        <li>
-                            <h5 style="color: lavenderblush;
-                            font-size: 500;">2018-2020</h5>
-                            <h4 style="color: aquamarine;
-                            font-size: 300;">HSC 12th class GSEB<br>
-                            Sree Swaminarayn Gurukul,<br>
-                            Gandhinagar</h4>
-                        </li>
-                        <li>
-                            <h5 style="color: lavenderblush;
-                            font-size: 500;">2017-2018</h5>
-                            <h4 style="color: aquamarine;
-                            font-size: 300;">SSC 10th class GSEB<br>
-                            Sree Swaminarayn Gurukul,<br>
-                            Gandhinagar</h4>
-                        </li>
-                    </ul>
-                </div>
-                <div class="contactInfo_language" style="position: relative;
-                width: 100%;
-                background-color: lightblue;
-                display: block;">
-                    <h3 class="title">Languag</h3>
-                    <h3>
-                    <ul>
-                        <li>
-                            <span class="text">English</span>
-                        </li>
-                        <li>
-                            <span class="text">Hindi</span>
-                        </li>
-                        <li>
-                            <span class="text">Gujrati</span>
-                        </li>
-                    </ul>
-                    </h3>
-                </div>
-            </div>
+            box-sizing: border-box;
+            width: 110%;
+            height: 50%;
+        }
+        .box4{
+            /* border: 4px solid wheat; */
+            margin: 20px 20px;
+            padding: 23px;
+            display: flex;
+            box-sizing: border-box;
+            width: 100%;
+            height: 50%;
+        }
+        .p{
+            font-size: 15px;
+        }
+        .container{
+            margin: auto;
+            width: 1200px;
+        }
+        .place{
+            /* border:  3px solid rgb(216, 164, 22); */
+            margin: 12px 3px;
+            padding: 12px 3px;
+            
+        }
+        #box6{
+            float:right;
+            width: 48%;
+        }
+    #box7{
+        float: left;
+            width: 48%;
+    }
+    #box8{
+        clear: both;
+        clear: left;
+         width: 99.5%;
+         height: 50%;
+    }
+    p, h3{
+        /* text-align: center; */
+        text-align: justify;
+    }
+    h1{
+        font-display: center;
+        margin: 23%;
+        width: 455px;
+    }
+    </style>
+</head>
+<body>
+    <header class="top">
+    <img src="https://www.freshergovtjob.in/wp-content/uploads/2019/12/Gandhinagar-Municipal-Corporation-Jobs.png" alt="">
+    <h3>Welcome To My Home Town </h3>
+    <h4>GANDHINAGAR</h4>
+</header>
+<div class="container">
+    <div class="box1">
+        <h3 class="heading">BAPS Akshardham Temple </h3>
+        <img src="http://2.bp.blogspot.com/-S-GpPBcGq_I/UZjx0tpf7VI/AAAAAAAASB0/biRo02D2Cms/s1600/Akshardham_Gandhinagar_Largest_Temple_of_Gujarat_283_29.jpg" alt="">
+        <p><h5>Swaminarayan Akshardham in Gandhinagar, Gujarat, India is a large Hindu temple complex inspired by Yogiji Maharaj (1892-1971) the fourth spiritual successor of Swaminarayan, and created by Pramukh Swami Maharaj (1921-2016), the fifth spiritual successor of Swaminarayan according to the BAPS denomination of Swaminarayan Hinduism. Located in the capital of Gujarat, the complex was built over 13 years and is a tribute to Swaminarayan and his life and teachings. At the center of the 23-acre complex is the Akshardham mandir, which is built from 6,000 metric tons of pink sandstone from Rajasthan. The complex's name refers to the divine abode of Swaminarayan in the BAPS philosophy; followers of Swaminarayan believe that the jiva or soul goes to Akshardham after attaining moksha, or liberation. BAPS followers worship Swaminarayan as God almighty.</h5></p>
+
+    </div>
+    <div class="box2">
+        <h3 class="heading">Mahatma Mandir</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Mahatma_Mandir-Gandhinagar.jpg/330px-Mahatma_Mandir-Gandhinagar.jpg" alt="">
+        <p><h5>Mahatma Mandir is a convention and exhibition centre located at sector 13 C in Gandhinagar, Gujarat, India. It is inspired from life and philosophy of Mahatma Gandhi. It is one of the biggest convention centre of India spread over an area of 34 acres (14 ha; 0.053 sq mi). It was developed by the Government of Gujarat. Business summits like Vibrant Gujarat Global Investor Summit 2011, 2013, 2015 and 2017 were organised here.</h5></p>
+
+    </div>
+    <div class="box3">
+        <h3 class="heading">Adalaj Stepwell</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Adalaj_ki_Vav_Gujarat_240A1370_72.jpg/360px-Adalaj_ki_Vav_Gujarat_240A1370_72.jpg" alt="" display="center">
+        <p><h5>Adalaj Stepwell or Rudabai Stepwell[1] is a stepwell located in the village of Adalaj, close to Ahmedabad city and in Gandhinagar district in the Indian state of Gujarat, and considered a fine example of Indian architecture work. It was built in 1498 in the memory of Rana Veer Singh (the Vaghela dynasty of Dandai Des), by his wife Queen Rudadevi.</h5></p>
+
+    </div>
+    <div class="box4">
+        <h3 class="heading">Sarita Udhyan</h3>
+        <img src="https://ihpl.b-cdn.net/pictures/travelguide/attractions/sarita-udyan-gandhinagar-2990.png" alt="">
+        <p><h5>Sarita Udhyan is oldest and largest garden of Gandhinagar which is located on bank of River sabarmati. This place on Gandhinagar-chiloda highway.</h5></p>
+
+    </div>
+    <div class="box5">
+        <h3 class="heading">Indroda Nature Park</h3>
+        <img src="https://i.ytimg.com/vi/qmfrNp_cNdE/maxresdefault.jpg" alt="">
+        <p><h5>Indroda Dinosaur and Fossil Park is a precious treasure spread over an area of about 400 hectares on either bank of Sabarmati river in Gandhinagar, ...</h5></p>
+
+    </div>
+        <div id="box6" class="place">
+            <h3>Dandi Kutir (Salt Mount) Museum</h3>
+            <img src="https://2.bp.blogspot.com/-WxK5UUBGBrs/W6tjT3uJILI/AAAAAAAAdas/qEYOGe0Xzy0fl_3IBHTdMEK6cO6h_q35gCLcBGAs/s1600/27982998_1941380922842282_7428283650529375964_o.jpg" alt="" height="300px" width="500px">
+            <p id="box6" class="para"><h5> Dandi Kutir is India’s largest & only museum built on the life and teachings of one man - Mahatma Gandhi. It represents Gandhi’s powerful idea of people across lines of class, gender, age, and community asserting their common right to salt itself: A symbol to inspire a pluralistic society to march towards independence - Purna Swaraj.<br>
+
+                A glimpse of Gandhi’s early life is beautifully portrayed with the help of audiovisuals. From his birth on 2nd October 1869 in Kathiawad to his childhood when he was a shy, remarkable and unique student. It also traces his marriage to Kasturba and his experiments with youth.<br>
+                
+                Dandi Kutir Museum, Gandhinagar is kept open for the general public from January 2015 by Archaeology and Museum office under the Sports, Youth & Cultural Activities Department, Government of Gujarat.<br>
+                
+                This museum is specially designed based on the biography of Mahatma Gandhi-the initiator of Disobedience and Nonviolence movements for Independence of India. This museum is designed with sophisticated technologies combining audio-video, 3-D visuals, 360-degree shows and the display is used to showcase varied knowledge.<br>
+                
+                </h5></p>
         </div>
-        <div class="right" style="position: relative;
-        background: white;
-        padding: 40px;">
-            <div class="about" style="margin-bottom: 50px;">
-                <h2 class="title2" style="color: darkcyan;
-                text-transform: uppercase;
-                letter-spacing: 1px;
-                margin-bottom: 10px;">Profile</h2>
-                <h2>🎓Technological Enthusiast 📚</h2>
-                <p>I am a Computer Engineering student at the LDRP Institute of Technology and Research, Gandhinagar, Gujrat.<br>
-                    Developing new, and improving existing, computer-based technologies, systems, and solutions.<br>
-                    Working with computer programmers, information technology professionals, and mechanical or
-                    electrical engineers to solve problems and create products.<br>
-                    Designing and engineering operating systems, software, hardware, networks and communications, and
-                    databases.<br>
-                    Researching information transfer and computation theory.
-                    Solving technological problems.<br></p>
-            </div>
-            <div class="about" style="margin-bottom: 50px;">
-                <h2 class="title2" style="color: darkcyan;
-                text-transform: uppercase;
-                letter-spacing: 1px;
-                margin-bottom: 10px;">Experience</h2>
-                <div class="box">
-                    <div class="year_company">
-                        <!-- <h3>2021 - Freelancer</h3> -->
-                        <h3>2020-2021: React/NodeJS Developer</h3>
-                        <h3>2022-Present - AWS cloud Architect</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="about_skills">
-                <h2 class="title3" style="color: darkcyan;
-                text-transform: uppercase;
-                letter-spacing: 1px;
-                margin-bottom: 10px;
-                padding: 10px 10px;">professional skills</h2>
-                <ul>
-                    <li>
-                        <div class="box">
-                            <h3>ReactJS, NodeJS</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="box">
-                            <h3>Linux</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="box">
-                            <h3>Neworking</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="box">
-                            <h3>Git/GitHub</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="box">
-                            <h3>GitOps</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="box">
-                            <h3>Docker, Kubernetes</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="box">
-                            <h3>AWS, Azure, GCP, OCI</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="box">
-                            <h3>AWS DevOps, Azure DevOps</h3>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        <div class="about_interest">
-            <h2 class="title3" style="color: darkcyan;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 10px;
-            padding: 10px 10px;">Interest</h2>
-            <ul>
-                <h3 style="text-transform: uppercase;
-                font-weight: 500;
-                color:darkcyan;
-                padding: 10px 10px;">
-                 <li>Gaming</li>
-                 <li>Badminton</li>
-                 <li>Chess</li>
-                 <li>Football</li>
-                 <li>Reading</li>
-                 </h3>
-            </ul>
-            </div>
+        <div id="box7" class="place">
+            <h3>Indian Institute of Technology Gandhinagar</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/a2/IIT_Gandhinagar_Logo.svg" alt="">
+            <p id="box7 " class="para"><h5>Indian Institute of Technology Gandhinagar is a public engineering institution located in Gandhinagar, Gujarat, India. It has been declared to be an Institute of National Importance by the Government of India. Established in 2008, IIT Gandhinagar campus is spread over 400 acres of land along the river Sabarmati.</h5>
+            <img src="https://images.indianexpress.com/2021/07/A-view-of-IIT-Gandhinagar-Campus.jpeg" alt=""></p>
         </div>
+        <div id="box8" class="">
+            <h3>Trimandir, Adalaj</h3>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/05/95/3e/92/trimandirjpg.jpg" alt="">
+            <p id="box8" class="para"><h5>Timandir, Adalaj is the most unique temple with a scientific concept of secularism - where Gods and Goddesses of many religions are worshipped. A serene and soothing temple, it is aimed to negate religious differences between masses. The message of the temple is that the ultimate concept given by all religions is the same and we need to understand this concept of the Soul for our spiritual progress and happiness. Spread over a sprawling area of one acre, there are very good amenities around - a restaurant, clean guest rooms, prasad center, a store of happiness for kids, a small museum and introductory video section. An entire private city has been developed around the city for spiritual seekers. Easily accessible on the Kalol highway, this is a must visit place - giving you a holiday from city's hustle bustle and getting you closer to spirituality.</h5></p>
+
+        </div>
+        <div id="box9" class="item">
+            <h3>Gandhinagar Capital<br>
+                Indian Railway Station</h3>
+            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202107/WhatsApp_Image_2021-07-15_at_1.jpeg?WGUw4HPCnP7hGBf.0juEFWRkMKDrT_6z&size=770:433" alt="">
+            <p id="box9" class="para"><h5>Gandhinagar Railway Station or Gandhinagar Capital (Station Code: GNC) is a major railway station with a 5-star hotel on its top in the city of Gandhinagar, Gujarat.<br>It serves the capital city of Gujarat. The station is located in Sector-14 of Gandhinagar.It was constructed by Indian Railway Stations Development Corporation, a Public Sector Enterprise(PSE) formed by JV between IRCON and RITES.</h5></p>
+        </div>
+        <h4>Go TO Google Map</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58665.80163066378!2d72.61044267001247!3d23.22078468248532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2b987c6d6809%3A0xf86f06a7873e0391!2sGandhinagar%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1633792970505!5m2!1sen!2sin" width="100%" height="500" style="border:2px solid black;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</div>
 </body>
 </html>
