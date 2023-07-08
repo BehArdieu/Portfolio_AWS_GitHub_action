@@ -77,8 +77,8 @@ jobs:
       run: aws s3 sync . s3://portfolio-aws-github-action --delete
 
 ```
-[Reference for creating this file](https://github.com/actions)
-[Reference for creating this file](https://github.com/actions/checkout)
+- [Reference for creating this file](https://github.com/actions)
+- [Reference for creating this file](https://github.com/actions/checkout)
 
 ## Step 3: Setup your AWS Credentials
 
